@@ -89,11 +89,7 @@ public class Utils {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
-
-    public static String getuuid() {
-        return UUID.randomUUID().toString().replaceAll("-", "");
-    }
-
+    
 
     /**
      * 比较两个时间的先后顺序
